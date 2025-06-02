@@ -803,6 +803,18 @@ require("lazy").setup({
 			--    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
 		end,
 	},
+	{
+		"LunarVim/BigFile.nvim",
+		event = "BufReadPre", -- Lazy load before any file opens
+		--opts = {
+		-- Your desired threshold in bytes (default is 100 MB)
+		-- max_size = 100 * 1024 * 1024,
+		-- You can also customize which features it disables
+		-- diagnostics = false, -- Disable LSP diagnostics
+		-- lsp = false, -- Disable LSP client attachment
+		-- treesitter = false, -- Disable treesitter highlighting/parsing
+		--},
+	},
 
 	-- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
 	-- init.lua. If you want these files, they are in the repository, so you can just download them and
