@@ -38,6 +38,10 @@ vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+-- bidi languages
+vim.bidi = true
+vim.opt.termbidi = true
+
 -- Keep signcolumn on by default
 vim.opt.signcolumn = "yes"
 
