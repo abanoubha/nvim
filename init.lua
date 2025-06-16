@@ -870,13 +870,19 @@ require("lazy").setup({
 -- automatically remove trailing spaces when saving
 vim.cmd([[autocmd BufWritePre * :%s/\s\+$//e]])
 
+-- Enable true colors before loading the colorscheme
+vim.opt.termguicolors = true
+
 -- vim.cmd[[colorscheme murphy]]
 -- vim.cmd.colorscheme("vim")
-vim.cmd.colorscheme("murphy")
+-- vim.cmd.colorscheme("murphy")
+-- require("colors.matte").setup()
+-- require("colors.matte_vibrant").setup()
+require("colors.abanoub").setup()
 
 -- tab is 2 spaces
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 
 -- change the current line bg color
-vim.api.nvim_set_hl(0, "CursorLine", { bg = "#222222" })
+-- vim.api.nvim_set_hl(0, "CursorLine", { bg = "#222222" })
