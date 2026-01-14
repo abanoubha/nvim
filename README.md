@@ -12,4 +12,5 @@ I use Lazy script of neovim (nvim).
 - nvim config (this repo)
 - [vim config](https://github.com/abanoubha/vim-config.git)
 - fish shell config (currently private)
+- [ghostty config](https://github.com/abanoubha/ghostty)
 
