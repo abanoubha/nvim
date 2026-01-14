@@ -2,6 +2,9 @@
 
 My neovim (nvim) config.
 
+> [!NOTE]
+> This config is opinionated and created by Abanoub Hanna, for Abanoub Hanna. You can use it as you like.
+
 I use Lazy script of neovim (nvim).
 
 ## my other configs
